@@ -1,0 +1,33 @@
+.header {
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px 80px 30px;
+  }
+  
+  .logo_button_container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  .nav_menu {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .nav_menu a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .logo_button_container button {
+    color: white;
+    background-color: #339933;
+    border: 2px solid #339933;
+    padding: 14px 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+  }

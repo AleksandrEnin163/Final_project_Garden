@@ -1,0 +1,60 @@
+.footer_container {
+    max-width: 1440px;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+  }
+
+  .footer_contacts_container {
+    display: flex;
+    align-items: flex-start;
+    gap: 160px;
+  }
+  
+  .title {
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 40px;
+  }
+
+  .contact h2 {
+    font-weight: 600;
+    font-size: 70px;
+    margin-bottom: 32px;
+    white-space: nowrap;
+  }
+  
+  .address a {
+    max-width: 564px;
+    color: black;
+    font-weight: 600;
+    font-size: 40px;
+    /* text-decoration: none; */
+  }
+  
+  .social {
+    display: flex;
+    gap: 70px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .social img {
+    width: 44px;
+    height: 44px;
+  }
+  
+  .address p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 2px;
+  }
+  
+  .address :nth-child(4) {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+  }

@@ -1,0 +1,35 @@
+.head_container {
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    background-color: #A1E2EB;
+}
+
+.head_sale h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    color: white;
+}
+
+.head_sale h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 63px;
+    color: white;
+}
+
+.head_sale button {
+    margin-top: 60px;
+    width: 155px;
+    height: 82px;
+    border-radius: 13px;
+    border: none;
+    background-color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+}
