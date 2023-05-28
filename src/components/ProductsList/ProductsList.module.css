@@ -1,0 +1,17 @@
+.products_list_container {
+    max-width: 1440px;
+    padding: 20px 30px 40px 30px;
+}
+
+.products_list_container h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.products_list_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
