@@ -6,7 +6,7 @@ function CategoriesList({ categories, title, btn }) {
     <div className={s.categories_list_container}>
         <div className={s.categories_list_head}>
             <h2>{title}</h2>
-            {btn && <a href='/catalog'><button>All categories</button></a>}
+            {btn && <a href='/categories/all'><button>All categories</button></a>}
         </div>
         <div className={s.categories_grid}>
             {categories.map(elem => <a href={`/categories/${elem.id}`} key={elem.id}><CategoryItem {...elem} /></a>)}

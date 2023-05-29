@@ -12,7 +12,7 @@ function Header() {
     <div className={s.header}>
         <div className={s.logo_button_container}>
             <a href='/'><img src={logo} alt="logo" /></a>
-            <button>Catalog</button>
+            <a href='/categories/all'><button>Catalog</button></a>
         </div>
         <div className={s.nav_menu}>
             {menu_li.map((elem, index) => <a href={elem.link} key={index}>{elem.title}</a>)}
