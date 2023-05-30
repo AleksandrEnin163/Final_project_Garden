@@ -33,7 +33,7 @@ function ProductItemInfoPage() {
                     {discont_price && <p>{-discount_value}%</p>}
                 </div>
                 <button>To cart</button>
-                <h5>Descriptioin</h5>
+                <h5>Description</h5>
                 <p>{description}</p>
             </div>
         </div>

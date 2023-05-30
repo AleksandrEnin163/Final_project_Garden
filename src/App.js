@@ -5,6 +5,8 @@ import Footer from './components/Footer/Footer'
 import MainPage from './pages/MainPage/MainPage'
 import AllCategoriesPage from './pages/AllCategoriesPage/AllCategoriesPage'
 import ProductItemInfoPage from './pages/ProductItemInfoPage/ProductItemInfoPage'
+import ProductsOfCategoryPage from './pages/ProductsOfCategoryPage/ProductsOfCategoryPage'
+import ErrorPage from './pages/ErrorPage/ErrorPage'
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
           <Route path='/' element={<MainPage />} />
           <Route path='/categories/all' element={<AllCategoriesPage />} />
           <Route path='/products/:id' element={<ProductItemInfoPage />} />
+          <Route path='/categories/:id' element={<ProductsOfCategoryPage />} />
+          <Route path='/*' element={<ErrorPage />} />
         </Routes>
       </Router>
       <Footer />

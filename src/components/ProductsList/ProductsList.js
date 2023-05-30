@@ -6,7 +6,7 @@ export default function ProductsList({ products, title }) {
     <div className={s.products_list_container}>
       <h2>{title}</h2>
       <div className={s.products_list_grid}>
-        {products.map(elem => <ProductItem product={elem} key={elem.id} />)}
+        {products && products.map(elem => <ProductItem product={elem} key={elem.id} />)}
       </div>
     </div>
   )
