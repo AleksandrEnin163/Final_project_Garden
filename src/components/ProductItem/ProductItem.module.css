@@ -7,11 +7,17 @@
     position: relative;
 }
 
+.product_image_btn {
+    width: 319px;
+    height: 276px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+
 .product_image_btn img {
     width: 100%;
-    max-height: 276px;
-    object-fit: cover;
-    border-radius: 20px;
 }
 
 .product_image_btn button {

@@ -7,6 +7,8 @@ import AllCategoriesPage from './pages/AllCategoriesPage/AllCategoriesPage'
 import ProductItemInfoPage from './pages/ProductItemInfoPage/ProductItemInfoPage'
 import ProductsOfCategoryPage from './pages/ProductsOfCategoryPage/ProductsOfCategoryPage'
 import ErrorPage from './pages/ErrorPage/ErrorPage'
+import AllProductsPage from './pages/AllProductsPage/AllProductsPage'
+import AllSalesPage from './pages/AllSalesPage/AllSalesPage'
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Routes>
           <Route path='/' element={<MainPage />} />
           <Route path='/categories/all' element={<AllCategoriesPage />} />
+          <Route path='/products/all' element={<AllProductsPage />} />
+          <Route path='/sales/all' element={<AllSalesPage />} />
           <Route path='/products/:id' element={<ProductItemInfoPage />} />
           <Route path='/categories/:id' element={<ProductsOfCategoryPage />} />
           <Route path='/*' element={<ErrorPage />} />
