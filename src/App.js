@@ -9,6 +9,7 @@ import ProductsOfCategoryPage from './pages/ProductsOfCategoryPage/ProductsOfCat
 import ErrorPage from './pages/ErrorPage/ErrorPage'
 import AllProductsPage from './pages/AllProductsPage/AllProductsPage'
 import AllSalesPage from './pages/AllSalesPage/AllSalesPage'
+import CartPage from './pages/CartPage/CartPage'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/sales/all' element={<AllSalesPage />} />
           <Route path='/products/:id' element={<ProductItemInfoPage />} />
           <Route path='/categories/:id' element={<ProductsOfCategoryPage />} />
+          <Route path='/cart' element={<CartPage />} />
           <Route path='/*' element={<ErrorPage />} />
         </Routes>
       </Router>

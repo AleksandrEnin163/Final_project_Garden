@@ -1,0 +1,108 @@
+.shopping_cart_container {
+    max-width: 1440px;
+    padding: 20px 30px 80px 30px;
+}
+
+.cart_list_order_details_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopping_cart_container h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.back_to_store_link {
+    max-width: 780px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 20px 0;
+    color: black;
+}
+
+.empty_message {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #8B8B8B;
+    margin-top: 40px;
+}
+
+.order_details_container {
+    width: 496px;
+    max-height: 393px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000000;
+    border-radius: 21px;
+    padding: 25px 0;
+    margin-top: 40px;
+}
+
+.order_details_container h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    margin-left: 25px;
+    margin-bottom: 47px;
+}
+
+.total_sum {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 43px;
+    margin-bottom: 55px;
+    max-width: 446px;
+}
+
+.total_sum :nth-child(1) {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.total_sum :nth-child(2) {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.order_details_container input {
+    max-width: 446px;
+    height: 73px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+.order_details_container input::placeholder {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #929292;
+}
+
+.order_details_container button {
+    max-width: 446px;
+    height: 76px;
+    background: #339933;
+    border-radius: 17px;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+    margin-left: 25px;
+}

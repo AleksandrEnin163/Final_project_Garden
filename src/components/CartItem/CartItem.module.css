@@ -1,0 +1,79 @@
+.cart_item_container {
+    max-width: 780px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    border-top: 1px solid #A7A7A7;
+    margin-top: 40px;
+}
+
+.cart_item_container img {
+    width: 192px;
+    height: 166px;
+    object-fit: cover;
+}
+
+.title_counter_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title_counter_container p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #3A3A3A;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 140px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 12px;
+}
+
+.counter button {
+    background: transparent;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.price_cross_container {
+    max-width: 240px;
+    position: relative;
+}
+
+.close_btn {
+    position: absolute;
+    right: -5px;
+    top: -15px;
+    cursor: pointer;
+}
+
+.price_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.price_container :nth-child(1) {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.price_container :nth-child(2) {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration-line: line-through;
+    color: #8B8B8B;
+}

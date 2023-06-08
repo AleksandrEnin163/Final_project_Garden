@@ -31,3 +31,18 @@
     border-radius: 5px;
     cursor: pointer;
   }
+
+  .cart_counter {
+    position: absolute;
+    top: 60px;
+    right: 25px;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    background-color: #339933;
+    color: white;
+  }
