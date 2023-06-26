@@ -14,8 +14,8 @@ import CartPage from './pages/CartPage/CartPage'
 function App() {
   return (
     <div>
-      <Header />
       <Router>
+      <Header />
         <Routes>
           <Route path='/' element={<MainPage />} />
           <Route path='/categories/all' element={<AllCategoriesPage />} />
