@@ -1,5 +1,7 @@
 .category_item {
     max-width: 318px;
+    position: relative;
+    overflow: hidden;
 }
 
 .category_item img {
@@ -7,7 +9,12 @@
     height: 350px;
     object-fit: cover;
     margin-bottom: 20px;
+    transition: transform 0.3s ease;
 }
+
+.category_item:hover img {
+    transform: scale(1.1);
+  }
 
 .category_title {
     text-align: center;

@@ -22,6 +22,10 @@
     text-decoration: none;
   }
 
+  .nav_menu a:hover {
+    color: #339933;
+  }
+  
   .logo_button_container button {
     color: white;
     background-color: #339933;
@@ -32,10 +36,14 @@
     cursor: pointer;
   }
 
+  .cart {
+    position: relative;
+  }
+
   .cart_counter {
     position: absolute;
-    top: 60px;
-    right: 25px;
+    top: 20px;
+    left: 18px;
     height: 18px;
     width: 18px;
     border-radius: 50%;

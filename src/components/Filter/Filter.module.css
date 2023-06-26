@@ -1,0 +1,68 @@
+.filter_container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  
+  input,
+  select {
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid black;
+    outline: none;
+  }
+  
+  select {
+    width: 220px;
+    padding-left: 10px;
+    color: #797979;
+    margin-left: 50px;
+    background-color: white;
+  }
+  
+  label {
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  
+  .filter_price input {
+    width: 100px;
+  }
+  
+  .filter_price,
+  .filter_discount,
+  .filter_sort {
+    display: flex;
+    align-items: center;
+  }
+  
+  .filter_price input,
+  .filter_sort input {
+    padding-left: 10px;
+  }
+  
+  .filter_price {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .filter_discount {
+    margin-right: 80px;
+  }
+
+  .check_box {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 7px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+
+  .check_box:checked {
+    background-color: #339933;
+  }

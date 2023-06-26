@@ -48,4 +48,10 @@
     font-size: 28px !important;
     margin-bottom: 0px !important;
     color: white;
+    cursor: pointer;
+}
+
+.discount_form_btn:hover {
+    background-color: white;
+    color: #339933;
 }

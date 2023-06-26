@@ -30,7 +30,7 @@ export default function CartItem({
 
   return (
     <div className={s.cart_item_container}>
-        <img src={imageUrl} alt={title}></img>
+        <img className={s.cart_item_img} src={imageUrl} alt={title}></img>
         <div className={s.title_counter_container}>
             <p>{title}</p>
             <div className={s.counter}>
@@ -40,12 +40,12 @@ export default function CartItem({
             </div>
         </div>
         <div className={s.price_cross_container}>
-            <RxCross2 className={s.close_btn} onClick={removeOnclick} />
             <div className={s.price_container}>
                 <p>{discont_price ? discont_price : price}$</p>
                 {discont_price && <p>{price}$</p>}
             </div>
         </div>
+        <RxCross2 className={s.close_btn} onClick={removeOnclick} />
     </div>
   );
 }

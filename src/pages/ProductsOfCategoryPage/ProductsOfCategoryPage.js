@@ -14,9 +14,17 @@ function ProductsOfCategoryPage() {
     dispatch(fetchProductsOfCategoryList(id))
   }, [])
 
+  const title = products_of_category.data ? products_of_category.category.title : ''
+  const data = products_of_category.data ? products_of_category.data : []
+
   return (
     <div>
-      <ProductsList products={products_of_category.data} title={products_of_category.category?.title} />
+      <ProductsList
+        products={data}
+        title={title}
+        show_filter={true}
+        show_discont_sort={true}
+        location='category_products' />
     </div>
   )
 }

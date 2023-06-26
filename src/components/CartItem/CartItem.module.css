@@ -1,16 +1,17 @@
 .cart_item_container {
     max-width: 780px;
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
     padding-top: 40px;
     border-top: 1px solid #A7A7A7;
     margin-top: 40px;
+    position: relative;
 }
 
-.cart_item_container img {
+.cart_item_img {
     width: 192px;
-    height: 166px;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .title_counter_container {
@@ -43,20 +44,8 @@
     cursor: pointer;
 }
 
-.price_cross_container {
-    max-width: 240px;
-    position: relative;
-}
-
-.close_btn {
-    position: absolute;
-    right: -5px;
-    top: -15px;
-    cursor: pointer;
-}
-
 .price_container {
-    width: 100%;
+    max-width: 240px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -76,4 +65,11 @@
     font-size: 20px;
     text-decoration-line: line-through;
     color: #8B8B8B;
+}
+
+.close_btn {
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    font-size: 20px;
 }

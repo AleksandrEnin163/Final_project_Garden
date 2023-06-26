@@ -11,7 +11,11 @@ function AllSalesPage() {
     useEffect(() => { dispatch(fetchProductsList()) }, [])
   return (
     <div>
-        <ProductsList products={products_on_sale} title='Products with sale' />
+        <ProductsList products={products_on_sale}
+                      title='Products with sale'
+                      show_filter={true}
+                      show_discont_sort={false}
+                      location='all_sales' />
     </div>
   )
 }

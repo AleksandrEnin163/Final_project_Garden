@@ -10,7 +10,11 @@ function AllProductsPage() {
     useEffect(() => { dispatch(fetchProductsList()) }, [])
   return (
     <div>
-        <ProductsList products={products} title='All products' />
+        <ProductsList products={products}
+                      title='All products'
+                      show_filter={true}
+                      show_discont_sort={true}
+                      location='all_products' />
     </div>
   )
 }
