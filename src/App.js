@@ -14,7 +14,7 @@ import CartPage from './pages/CartPage/CartPage'
 function App() {
   return (
     <div>
-      <Router hashType="hashbang">
+      <Router>
       <Header />
         <Routes>
           <Route path='/' element={<MainPage />} />
