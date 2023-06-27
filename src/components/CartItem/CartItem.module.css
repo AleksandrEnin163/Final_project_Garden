@@ -73,3 +73,23 @@
     right: 0;
     font-size: 20px;
 }
+
+@media screen and (max-width: 810px) {
+    .cart_item_container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+        padding-top: 20px;
+        margin-top: 10px;
+    }
+
+    .title_counter_container {
+        align-items: center;
+        gap: 10px;
+    }
+
+    .close_btn {
+        top: 5px;
+    }
+}

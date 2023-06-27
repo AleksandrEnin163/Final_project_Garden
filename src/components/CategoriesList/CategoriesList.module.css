@@ -38,3 +38,26 @@
     text-decoration: none;
     color: black;
 }
+
+@media screen and (max-width: 810px) {
+    .categories_list_container {
+        padding: 10px 5px;
+    }
+
+    .categories_list_head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .categories_grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+}

@@ -51,19 +51,19 @@ function Header() {
           <Burger onClick={handleMenuToggle} />
         ) : (
           <>
-            <div className={s.nav_menu}>
-                {menu_li.map((elem, index) => <a href={elem.link} key={index}>{elem.title}</a>)}
-            </div>
-            <div className={s.cart}>
-            <a href='/cart'>
-                <img src={cart} alt='cart_image' />
-                {counter > 0 && (
-                <div className={s.cart_counter}>
-                    <p>{counter}</p>
-                </div>
-                )}
-            </a>
-            </div>
+          <div className={s.nav_menu}>
+              {menu_li.map((elem, index) => <a href={elem.link} key={index}>{elem.title}</a>)}
+          </div>
+          <div className={s.cart}>
+          <a href='/cart'>
+              <img src={cart} alt='cart_image' />
+              {counter > 0 && (
+              <div className={s.cart_counter}>
+                  <p>{counter}</p>
+              </div>
+              )}
+          </a>
+          </div>
           </>)}
         <Modal isOpen={isMenuOpen} onClose={handleCloseModal} />
   </div>
