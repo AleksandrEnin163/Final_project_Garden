@@ -7,7 +7,7 @@ function Head() {
         <div className={s.head_sale}>
             <h1>Sale</h1>
             <h2>New season</h2>
-            <a href='#/sales/all'><button>Sale</button></a>
+            <a href='/sales/all'><button>Sale</button></a>
         </div>
         <img className={s.head_img} src={garten} alt='garten'></img>
     </div>
