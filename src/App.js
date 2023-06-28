@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import MainPage from './pages/MainPage/MainPage'
@@ -14,20 +14,18 @@ import CartPage from './pages/CartPage/CartPage'
 function App() {
   return (
     <div>
-      <Router>
-      <Header />
-        <Routes>
-          <Route path='/' element={<MainPage />} />
-          <Route path='/categories/all' element={<AllCategoriesPage />} />
-          <Route path='/products/all' element={<AllProductsPage />} />
-          <Route path='/sales/all' element={<AllSalesPage />} />
-          <Route path='/products/:id' element={<ProductItemInfoPage />} />
-          <Route path='/categories/:id' element={<ProductsOfCategoryPage />} />
-          <Route path='/cart' element={<CartPage />} />
-          <Route path='/*' element={<ErrorPage />} />
-        </Routes>
-      </Router>
-      <Footer />
+        <Header />
+          <Routes>
+            <Route path='/' element={<MainPage />} />
+            <Route path='/categories/all' element={<AllCategoriesPage />} />
+            <Route path='/products/all' element={<AllProductsPage />} />
+            <Route path='/sales/all' element={<AllSalesPage />} />
+            <Route path='/products/:id' element={<ProductItemInfoPage />} />
+            <Route path='/categories/:id' element={<ProductsOfCategoryPage />} />
+            <Route path='/cart' element={<CartPage />} />
+            <Route path='/*' element={<ErrorPage />} />
+          </Routes>
+        <Footer />
     </div>
   )
 }
