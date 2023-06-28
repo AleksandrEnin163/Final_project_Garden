@@ -22,7 +22,7 @@ function CartPage() {
   return (
     <div className={s.shopping_cart_container}>
       <h2>Shopping cart</h2>
-      <Link to='/products/all' style={{textDecoration: 'none'}}>
+      <Link to='#/products/all' style={{textDecoration: 'none'}}>
         <div className={s.back_to_store_link}>
           <p>Back to the store&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></p>
         </div>
