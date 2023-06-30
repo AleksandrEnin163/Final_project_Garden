@@ -1,0 +1,12 @@
+.container_404 img {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+}
+
+@media screen and (max-width: 500px) {
+    .container_404 img {
+        height: 350px;
+    }
+}
