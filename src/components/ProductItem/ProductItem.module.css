@@ -77,3 +77,9 @@
 .product_item:hover .product_image_btn button {
     opacity: 1;
 }
+
+@media screen and (max-width: 810px) {
+    .product_image_btn button {
+        display: none;
+    }
+}

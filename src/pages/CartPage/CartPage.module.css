@@ -108,6 +108,17 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 1360px) {
+    .cart_list_order_details_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .order_details_container {
+        margin-top: 60px;
+    }
+}
+
 @media screen and (max-width: 810px) {
     .cart_list_order_details_container {
         flex-direction: column;

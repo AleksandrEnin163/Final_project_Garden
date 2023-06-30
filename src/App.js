@@ -13,7 +13,7 @@ import CartPage from './pages/CartPage/CartPage'
 
 function App() {
   return (
-    <div>
+    <div className='app_container'>
         <Header />
           <Routes>
             <Route path='/' element={<MainPage />} />
